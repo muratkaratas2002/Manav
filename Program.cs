@@ -24,7 +24,6 @@ namespace Manav
             Console.ReadKey();
             Console.Clear(); 
 
-            // 2. Müşterinin listelerini al ve SAKLA
             Console.WriteLine("--- MÜŞTERİ MANAVDAN ALIŞVERİŞ YAPIYOR ---");
             ArrayList musterininMeyveleri = ManavMeyveBölümü(manavinMeyveleri);
             ArrayList musterininSebzeleri = ManavSebzeBölümü(manavinSebzeleri);
